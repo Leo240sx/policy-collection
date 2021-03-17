@@ -8,7 +8,7 @@ metadata:
     policy.open-cluster-management.io/controls: CM-2 Baseline Configuration
 spec:
   remediationAction: enforce
-  disabled: false
+  disabled: true
   policy-templates:
     - objectDefinition:
         apiVersion: policy.open-cluster-management.io/v1
@@ -63,7 +63,6 @@ kind: PlacementRule
 metadata:
   name: placement-egress-example
 spec:
-  disabled: true
   clusterConditions:
   - status: "True"
     type: ManagedClusterConditionAvailable
