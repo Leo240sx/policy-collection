@@ -63,6 +63,7 @@ kind: PlacementRule
 metadata:
   name: placement-egress-example
 spec:
+  disabled: true
   clusterConditions:
   - status: "True"
     type: ManagedClusterConditionAvailable
