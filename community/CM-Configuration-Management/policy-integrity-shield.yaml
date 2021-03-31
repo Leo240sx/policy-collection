@@ -12,7 +12,7 @@ metadata:
     policy.open-cluster-management.io/controls: CM-5 Access Restrictions for Change
 spec:
   remediationAction: inform
-  disabled: false
+  disabled: true
   policy-templates:
   - objectDefinition:
       apiVersion: policy.open-cluster-management.io/v1
